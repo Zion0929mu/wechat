@@ -2,7 +2,7 @@
 
 A pixel-perfect static replica of the WeChat desktop interface, built using **pure HTML and CSS**. This project demonstrates responsive layout techniques, icon integration, and visual fidelity, all without JavaScript or external frameworks.
 
-![WeChat UI Preview](./assets/wechat.jpg)
+![WeChat UI Preview](./asset/wechat.jpg)
 
 ## 💡 Project Overview
 
