@@ -54,7 +54,7 @@
 ---
 
 ## 📁 项目结构
-
+```
 wechat-web/
 ├── index.html # 主页面结构
 ├── css/
@@ -64,3 +64,4 @@ wechat-web/
 │ └── icons/ # 所有图标资源
 └── README_cn.md # 项目说明文档中文
 └── README_en.md # 项目说明文档英文
+```
