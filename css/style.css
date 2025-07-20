@@ -1,0 +1,344 @@
+body {
+    width: 1112px;
+    height: 784px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: orange
+}
+
+.bg{
+    width: 1112px;
+    height: 784px;
+    position: absolute;
+}
+
+.box {
+    position:relative;
+    background-color: #e0dee3;
+    display: flex;
+    width:1112px;
+    height: 784px;
+    /* opacity: 0.6; */
+    
+}
+.section1 {
+    width: 59px;
+    height: 784px;
+    background-color: #e0dee3;
+    flex-direction: column;
+}
+.circle{
+    display:flex;
+    flex-direction: row;
+    padding: 5px 4.2px 5px 3.8px;
+    white-space: nowrap;
+}
+.circle_ture img{
+    width:13px;
+    height:13px;
+    padding:0px 2px 0px 0px;
+    white-space: nowrap;
+}
+.picture1 {
+    padding: 40px 0px 0px 12px;
+}
+.pictureitself img{
+    height: 36px;
+    width: 36px;
+    border-radius: 2px;
+}
+.iconleft {
+    padding: 22px 0px 0px 0px;
+    position:relative;
+}
+
+.wechatchat {
+    padding: 2px 0px 0px 18px;
+    height: 23px;
+    width: 24px;
+}
+
+.wechatcontacts {
+    padding: 20px 0px 0px 17px;
+    height: 25px;
+    width:25px
+}
+
+.wechatcollect {
+    padding: 20px 0px 0px 17px;
+    height: 25px;
+    width:25px;
+}
+
+.wechatfile {
+    padding: 20px 0px 0px 17px;
+    height: 22px;
+    width:24px;
+}
+.wechatfriend {
+    padding: 16px 0px 0px 17px;
+    height: 30px;
+    width:25px;
+}
+.red1{
+    height: 16.5px;
+    width:  16.5px;
+    position: absolute;
+    z-index: 2;
+    top:210px;
+    left:33px;
+    
+}
+.wechatbuttlefly{
+    padding: 14px 0px 0px 17px;
+    height: 30px;
+    width:25px;
+}
+.wechatsee{
+    padding: 14px 0px 0px 15px;
+    height: 30px;
+    width:30px;
+}
+.wechatsearch{
+    padding: 15px 0px 0px 17px;
+    height: 25px;
+    width:25px;
+}
+.wechatprocess{
+    padding: 122px 0px 0px 17px;
+    height: 26px;
+    width:26px;
+}
+.wechatiphone {
+    width: 26px; 
+    height: auto; 
+    padding: 20px 0px 0px 17px; 
+}
+.wechatsetting {
+    padding: 29px 0px 0px 15px;
+    height: 30px;
+    width:30px;
+}
+
+.section2 {
+    background-color: #f7f7f7;
+    width: 261px;
+    height: 784px;
+    
+
+    
+}
+.search {
+    display: flex;
+    
+    gap: 8px;
+    
+    padding-top: 17px;
+    padding-right: 16px;
+    padding-left: 18px;
+    padding-bottom: 15px;
+    display: flex;
+}
+.search-icon{
+    
+    padding-top: 7px;
+    padding-right: 5px;
+    padding-left: 5px; 
+    width: 15px;
+    height: 15px;
+    position: absolute;
+}
+.search-input{
+    flex: 1;
+    height: 23px;
+    font-size: 12px; 
+    padding-top: 4px;
+    padding-right: -5px;
+    padding-left: 23px; 
+
+    border-radius: 2px;
+    
+    background-color: #eaeaea;
+    border: none;
+}
+
+.search-button{
+
+    padding-top: 8px;
+    padding-right: 2px;
+    padding-left: 10px;
+    width: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.add-icon{
+    
+    padding-top: 6px;
+    padding-right: 50px;
+    padding-left: 207px; 
+    width: 16px;
+    height: 16px;
+    position: absolute;
+}
+.filehelper {
+    display: flex;
+    
+    background-color: #dedede; 
+    
+    /* padding-top: 6px;
+    padding-right: 50px;
+    padding-left: 20px; 
+    padding-bottom: 10px; */
+ 
+    height: 68px; 
+    position: relative; 
+}
+
+.wechattransfer{
+    padding-top: 16px;
+    padding-right: 13px;
+    padding-left: 13.5px;
+    /* padding-bottom: ; */
+    width: 35px;
+    height: 36px;
+    
+    
+}
+.transfor{
+    font-size: 13.5px;
+    margin-left: -1.5px; 
+}
+.message1{
+    font-size: 12px;
+    margin-left: -82px;
+    margin-top: 38px;
+    letter-spacing: 0.25px;
+}
+.time1{
+    font-size: 10px;
+    margin-top:14px;
+    margin-left:54px;
+}
+.section3{
+    background-color: #f3f3f3;
+    width:792px;
+    height: 784px;
+    position: relative;
+}
+.transfor2{
+    font-size: 15.5px;
+    padding-top: 2px;
+    padding-left: 26.7px;
+}
+.line1{
+    width:100%;
+    height: 1px;
+    margin-top: 22px;
+    background-color: #e7e7e7;
+    border: none;
+}
+.saying{
+    position: relative;
+    display: flex;
+    margin-top: 75px;
+}
+.message2{
+    position: absolute;
+    margin-left: 594px;
+    margin-top: 18px;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+}
+.rectangle{
+    width:143px;
+    height:38px;
+    background-color: #aae87b;
+    border: none;
+    border-radius: 4px;
+    margin-left: 586px;
+    margin-top:8px
+    
+}
+
+.trangle{
+    width:0;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 6px solid #aae87b;
+    position: absolute;
+    margin-left: 728px;
+    margin-top: 20px;
+}
+.picture2{
+    width:32px;
+    height:32px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.line2{
+    width:100%;
+    height: 1px;
+    margin-top: 278px;
+    background-color: #e7e7e7;
+    border: none;
+}
+.time2{
+    font-size: 12.5px;
+    margin-top:40px;
+    margin-left: 380px;
+    position: absolute;
+}
+.function{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+}
+.emotion{
+    /* padding:1px; */
+    width: 29px;
+    height: 29px;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+.file2{
+    width: 20px;
+    height: 20px;
+    padding-left: 17px;
+    padding-top: 10px;
+}
+.cut{
+    width: 20px;
+    height: 20px;
+    padding-left: 19px;
+    padding-top: 10px;
+}
+.downarrow{
+    width: 10px;
+    height: 10px;
+    padding-left: 2px;
+    padding-top: 15px;
+}
+.chatrecord{
+    width: 20px;
+    height: 18px;
+    padding-left: 9px;
+    padding-top: 10px;
+}
+
+.keyboard-input{
+    width: 792px;
+    height: 280px;
+    margin-top: 30px;
+    position: absolute;
+    border: none;
+    line-height: 10;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+}
