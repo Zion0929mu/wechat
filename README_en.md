@@ -53,7 +53,7 @@ This project replicates the WeChat desktop interface (1112×784px) using semanti
 ---
 
 ## 📁 Project Structure
-
+```
 wechat-web/
 ├── index.html # Main HTML layout
 ├── css/
@@ -61,4 +61,6 @@ wechat-web/
 ├── assets/
 │ ├── wechat.jpg # Original design reference
 │ └── icons/ # All icons used in the layout
-└── README.md # Project documentation
+└── README_cn.md # Project documentation Chinese
+└── README_en.md # Project documentation English
+```
